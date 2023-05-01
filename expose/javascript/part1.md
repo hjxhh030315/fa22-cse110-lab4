@@ -1,0 +1,3 @@
+Question1-2: The output printed by line 9 would be "values added: 20",The output printed by line 13 would be "final result 20".
+Question3-4: The output printed by line 9 would be "values added: 20". The output printed by line 13 would be an error. This is because 'result' is out of the block scope so it can't be accessed. 'let' is inside the 'if'block, so 'result' is in the block scope.
+Question5-6: The output printed by line 9 would be "values added: 20". The output printed by line 13 would be an error.This is because 'result' is out of the block scope so it can't be accessed. 'const' is inside the 'if'block, so 'result' is in the block scope. Even tho 'result' was reassigned a value inside the 'if' block, it's still can't be accessed since it's out of the scope.

@@ -1,0 +1,2 @@
+Question1: the values of 'num1' and 'num2' is undefined and ‘result' is not available. 'num1' and 'num2' are still stirngs, they are not converted into numbers before adding them, so it caused strings concatenations instead of number addition. So, we can use 'parseInt()' func to convert them into numbers.
+Question2: So, we can use 'parseInt()' func to convert them into numbers.
